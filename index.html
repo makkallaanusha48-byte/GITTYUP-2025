@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alex Rana — Computer Science Portfolio</title>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Meta -->
+  <meta name="description" content="Anusha — Systems Engineer. Portfolio showcasing projects, skills, and contact." />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <!-- Minimal terminal-style logo -->
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="1" y="1" width="22" height="22" rx="3" stroke="currentColor" fill="none" stroke-width="1.2"/>
+          <path d="M6 9 L10 12 L6 15" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 15h6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <div class="brand-text">
+          <span class="name">Anusha</span>
+          <span class="role">Systems Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 id="hero-heading" class="mono">Hi, I’m <span class="accent">Anusha</span>.</h1>
+          <p class="lead">Systems Engineer · Computer Science · Open-source enthusiast</p>
+          <p class="tagline">I design reliable distributed systems and build efficient software—focused on performance, clarity, and real-world impact.</p>
+
+          <div class="cta-row">
+            <a class="btn-outline" href="#projects">View Projects</a>
+            <a class="btn-solid" href="#contact">Contact Me</a>
+          </div>
+
+          <ul class="meta">
+            <li><strong>Location:</strong> Bangalore, India</li>
+            <li><strong>Grad:</strong> B.Sc. Computer Science, 2024 — National Tech University</li>
+          </ul>
+
+          <div class="links">
+            <a href="https://github.com/placeholder" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/placeholder" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="mailto:alex.rana@example.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-hidden="true">
+          <!-- Terminal-style code card (pure CSS) -->
+          <div class="terminal">
+            <div class="term-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="term-title">~/portfolio</span>
+            </div>
+            <pre class="code">
+$ git clone github.com/placeholder/project-one
+$ cd project-one && make build
+> Deployed: 2025-08-12
+> Tech: Go · Docker · Kubernetes
+            </pre>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading" class="section-title mono">About</h2>
+        <div class="grid about-grid">
+          <div class="card">
+            <h3 class="mono">Professional Snapshot</h3>
+            <p>I'm a Systems Engineer passionate about building scalable back-end services, optimizing performance, and mentoring junior engineers. I enjoy translating complex requirements into pragmatic, maintainable code.</p>
+            <p><strong>Interests:</strong> Distributed systems, compilers, low-latency design.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="mono">Hobbies & Soft Skills</h3>
+            <p><strong>Hobbies:</strong> Competitive programming, chess, hiking.</p>
+            <p><strong>Soft Skills:</strong> Communication, problem-solving, teamwork, time management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 id="education-heading" class="section-title mono">Education</h2>
+        <div class="education">
+          <div class="edu-left">
+            <h3>National Tech University</h3>
+            <p class="muted">B.Sc. Computer Science — Graduated 2024</p>
+            <ul>
+              <li>Relevant coursework: Operating Systems, Algorithms, Networks, Database Systems.</li>
+              <li>Final-year project: Lightweight Container Scheduler for Edge Devices.</li>
+            </ul>
+          </div>
+          <div class="edu-right">
+            <div class="skill-badge mono">GPA: 8.6 / 10</div>
+            <div class="skill-badge mono">Dean's List</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title mono">Technical Skills</h2>
+
+        <div class="grid skills-grid">
+          <div class="card skill-card">
+            <h4 class="mono">Languages</h4>
+            <p>Go · Python · C++ · Java · JavaScript</p>
+          </div>
+
+          <div class="card skill-card">
+            <h4 class="mono">Tools & Frameworks</h4>
+            <p>Docker · Kubernetes · Git · Linux · Prometheus · Grafana</p>
+          </div>
+
+          <div class="card skill-card">
+            <h4 class="mono">Core Concepts</h4>
+            <p>Distributed Systems · OS Internals · Networking · Databases · Concurrency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title mono">Selected Projects</h2>
+
+        <div class="grid projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card card">
+            <div class="project-header">
+              <h3 class="mono">EdgeSched</h3>
+              <span class="tag">Systems · Scheduler</span>
+            </div>
+            <p class="muted">A lightweight container scheduler optimized for resource-constrained edge devices.</p>
+            <ul>
+              <li>Designed a compact scheduling algorithm to minimize startup latency and balance energy usage.</li>
+              <li>Implemented in Go, containerized with Docker; supports rolling updates.</li>
+            </ul>
+            <div class="project-footer">
+              <a href="#" class="link">Repo</a>
+              <a href="#" class="link">Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card card">
+            <div class="project-header">
+              <h3 class="mono">FastLog</h3>
+              <span class="tag">Observability · Logging</span>
+            </div>
+            <p class="muted">High-throughput log processor that reduces ingestion latency using lock-free buffers.</p>
+            <ul>
+              <li>Throughput improvements of 3x vs baseline under heavy load.</li>
+              <li>Pluggable sinks: local file, remote HTTP, Kafka.</li>
+            </ul>
+            <div class="project-footer">
+              <a href="#" class="link">Repo</a>
+              <a href="#" class="link">Post</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card card">
+            <div class="project-header">
+              <h3 class="mono">AlgoViz</h3>
+              <span class="tag">Education · Visualization</span>
+            </div>
+            <p class="muted">Interactive visualizer for classic algorithms with step-by-step explanations.</p>
+            <ul>
+              <li>Built with vanilla JavaScript and Canvas for minimal dependencies.</li>
+              <li>Used in classroom demos and algorithm study groups.</li>
+            </ul>
+            <div class="project-footer">
+              <a href="#" class="link">Repo</a>
+              <a href="#" class="link">Live</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-heading" class="section-title mono">Contact</h2>
+          <p>I'm currently open to internship and full-time opportunities in backend and systems engineering. If you'd like to collaborate, hire, or chat — send a message.</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:alex.rana@example.com">alex.rana@example.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/placeholder" target="_blank" rel="noopener">github.com/placeholder</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener">linkedin.com/in/placeholder</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form card" action="mailto:alex.rana@example.com" method="post" enctype="text/plain">
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required />
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Short message..." required></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-solid">Send</button>
+            <button type="reset" class="btn-outline">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mono small">© <span id="year"></span> Alex Rana — <span class="muted">Systems Engineer</span></p>
+      <p class="small muted">Designed with a terminal aesthetic • Dark-mode friendly</p>
+    </div>
+  </footer>
+
+  <!-- Embedded JS (mobile menu toggle, set year, smooth scrolling) -->
+  <script>
+    (function () {
+      // Mobile menu toggle
+      const nav = document.getElementById('nav');
+      const toggle = document.getElementById('navToggle');
+      toggle.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+
+      // Close nav on link click (mobile)
+      document.querySelectorAll('.nav-list a').forEach(a => {
+        a.addEventListener('click', () => {
+          nav.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Smooth scroll behavior fallback for older browsers
+      document.documentElement.style.scrollBehavior = 'smooth';
+
+      // Set current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
